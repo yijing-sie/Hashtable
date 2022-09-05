@@ -9,7 +9,7 @@ This is a personal project for **Algorithms and Data Structures**
 > As for generic, **keys** are always `int`, but **elements** can be of any type
 
 
-* [hashtable.exe](hashtable.exe) is the executable file that takes input from users and performs the operations accordingly on the map
+* [hashtable.exe](hashtable.exe) is an executable file that takes input from users and performs the operations accordingly on the map
 > For demonstration purpose only, **elements** are restricted to be `int`
 
 * [Source.cpp](Source.cpp) contains all my code for this project. It contains two main functions:
@@ -33,18 +33,31 @@ This is a personal project for **Algorithms and Data Structures**
 Here is a demonstration of rehashing:
 
 
-From the above video, since the default **HashTable** is of size 3, the pair which` key = 1` and the pair which `key = 4` are both hased to ```HashTable[1]``` . Therefore, when printing the table, it shows
+
+https://user-images.githubusercontent.com/84282744/188362459-c50815ef-a58d-4d75-b638-ca786a25fee9.mp4
+
+
+From the above video, since the default **HashTable** is of size 3, the pair which `key = 1` and the pair which `key = 4` are both hased to ```HashTable[1]``` . Therefore, when printing the table, it shows
+
+<p> <img src = "rehash_printTable.png" /></p>
 
 
 NOTE: The pair which `key = 2` is showed after the pair which `key = 4`.
 
 However, after inserting one more pair into the table, **HashTable** is increased to size **7**, so the pair which `key = 4` is rehashed to ```HashTable[4]```. Therefore, when printing the table, we see:
 
+<p> <img src = "rehash_printTable2.png" /></p>
+
 
 ### Demo
 1. Demonstartion of **HashTable** taking input from 
 
+
+https://user-images.githubusercontent.com/84282744/188362538-9c63f887-8e12-4bff-ace5-43fd3607cb32.mp4
+
+
+
 2. Demonstartion of **operator[]** in **HashTable** 
 
-
+<p> <img src = "operator_demo.png" /></p>
 
