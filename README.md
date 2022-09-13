@@ -14,9 +14,9 @@ This is a personal project for **Algorithms and Data Structures**
 
 * [Source.cpp](Source.cpp) contains all my code for this project. It contains two main functions:
 1. The main function that implements [hashtable.exe](hashtable.exe) to demonstrate the functionalities of **HashTable**
-2. The main function that allows **elements** to be of any types, and can be used to demonstrate the functionality of `indexing operator`
+2. The main function that allows **elements** to be of any type, and can be used to demonstrate the functionality of `indexing operator`
 
-##Details
+## Details
 
 * **HashTable** itself is stored in a [vector](https://cplusplus.com/reference/vector/vector/), each of which contains a vector of pairs to store key-value pairs for users.
 
@@ -25,7 +25,7 @@ This is a personal project for **Algorithms and Data Structures**
 
 * A key-value pair is hashed into the table using modulo % on the key value and the current table size 
 
-* When two key-value pairs are hashed into the same index of the table, they are always inserted in ascending ordering based on their key values 
+* When two key-value pairs are hashed into the same index of the table, they are always inserted in ascending order based on their key values 
 
 
 * Whenever the load factor is about to exceed **0.8**, **HashTable** will **rehash** the stored key-value pairs after increasing the size of the table to twice the current size plus one
