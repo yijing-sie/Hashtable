@@ -50,7 +50,7 @@ However, after inserting one more pair into the table, **HashTable** is increase
 
 
 ### Demo
-1. Demonstartion of **HashTable** taking input from 
+1. Demonstartion of **HashTable** taking input from **stdin**
 
 
 https://user-images.githubusercontent.com/84282744/188362538-9c63f887-8e12-4bff-ace5-43fd3607cb32.mp4
